@@ -10,14 +10,7 @@ package model.mail;
  * @author guill
  */
 public class Message {
-   /*
-   from 1x
-   to plusieurs
-   cc plusieurs 
-   bcc ? plusieurs
-   subject 1x
-   body1x
-   */
+
    private String from;
    private String[] to;
    private String[] cc;

@@ -24,20 +24,7 @@ import java.util.List;
  *
  * basé sur http://afnay.com/tutoriel/Java/fichier_properties.php
  */
-/*
-#Example of db configuration
-db.url=jdbc:mysql://localhost:3306/nameOfDb
-db.username=user
-db.password=password
 
-package com.r2b.test;
-
-
-smtpServerAdress = inconnue
-smtpServerPort = 25
-numberOfGroups = 8
-toCC = guillaume.schranz@gmail.com
-*/
 public class ConfigurationManager {
    private  String smtpServerAdress;
    private  int smtpServerPort;
